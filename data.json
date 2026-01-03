@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Scalable microservices-based e-commerce solution built with ASP.NET Core, handling 100K+ daily transactions.",
+      "technologies": ["ASP.NET Core", "Azure", "SQL Server", "Redis", "Docker"],
+      "icon": "shopping-cart",
+      "category": "Web Application",
+      "github": "https://github.com/alexmorgan/ecommerce-platform",
+      "demo": "https://demo-ecommerce.example.com"
+    },
+    {
+      "id": 2,
+      "title": "Healthcare Management System",
+      "description": "HIPAA-compliant patient management system with real-time data synchronization and advanced reporting.",
+      "technologies": [".NET 8", "Blazor", "PostgreSQL", "SignalR", "Azure Functions"],
+      "icon": "activity",
+      "category": "Enterprise",
+      "github": "https://github.com/alexmorgan/healthcare-system",
+      "demo": null
+    },
+    {
+      "id": 3,
+      "title": "Real-Time Analytics Dashboard",
+      "description": "High-performance dashboard for processing and visualizing millions of events per second using event-driven architecture.",
+      "technologies": ["C#", "Azure Event Hubs", "CosmosDB", "React", "Power BI"],
+      "icon": "bar-chart",
+      "category": "Analytics",
+      "github": "https://github.com/alexmorgan/analytics-dashboard",
+      "demo": "https://analytics-demo.example.com"
+    },
+    {
+      "id": 4,
+      "title": "Identity & Access Management",
+      "description": "Enterprise IAM solution with OAuth 2.0, SAML, multi-factor authentication, and role-based access control.",
+      "technologies": ["IdentityServer", ".NET Core", "MongoDB", "Angular", "Kubernetes"],
+      "icon": "shield",
+      "category": "Security",
+      "github": "https://github.com/alexmorgan/iam-solution",
+      "demo": null
+    },
+    {
+      "id": 5,
+      "title": "IoT Device Manager",
+      "description": "Cloud-based platform for managing and monitoring 50K+ IoT devices with real-time telemetry and remote control.",
+      "technologies": ["Azure IoT Hub", "ASP.NET Core", "TimescaleDB", "MQTT", "Vue.js"],
+      "icon": "cpu",
+      "category": "IoT",
+      "github": "https://github.com/alexmorgan/iot-manager",
+      "demo": "https://iot-demo.example.com"
+    },
+    {
+      "id": 6,
+      "title": "CI/CD Pipeline Automation",
+      "description": "Automated deployment pipeline with infrastructure as code, reducing deployment time by 80%.",
+      "technologies": ["Azure DevOps", "Terraform", "Docker", "Kubernetes", "PowerShell"],
+      "icon": "git-branch",
+      "category": "DevOps",
+      "github": "https://github.com/alexmorgan/cicd-automation",
+      "demo": null
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend & Frameworks",
+      "icon": "code",
+      "items": ["C#", ".NET Core / .NET 8", "ASP.NET Core", "Entity Framework Core", "Dapper", "MediatR", "AutoMapper", "FluentValidation"]
+    },
+    {
+      "category": "Frontend",
+      "icon": "layout",
+      "items": ["Blazor", "React", "Angular", "Vue.js", "HTML5/CSS3", "Tailwind CSS", "Bootstrap", "JavaScript/TypeScript"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "cloud",
+      "items": ["Azure", "Azure Functions", "Azure DevOps", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "CI/CD"]
+    },
+    {
+      "category": "Databases",
+      "icon": "database",
+      "items": ["SQL Server", "PostgreSQL", "MongoDB", "CosmosDB", "Redis", "Elasticsearch", "MySQL"]
+    },
+    {
+      "category": "Architecture & Design",
+      "icon": "layers",
+      "items": ["Microservices", "RESTful APIs", "GraphQL", "CQRS", "Event Sourcing", "Domain-Driven Design", "Clean Architecture", "SOLID Principles"]
+    },
+    {
+      "category": "Testing & Quality",
+      "icon": "check-circle",
+      "items": ["xUnit", "NUnit", "Moq", "FluentAssertions", "SpecFlow", "Integration Testing", "TDD/BDD", "SonarQube"]
+    },
+    {
+      "category": "Message Brokers & Async",
+      "icon": "message-square",
+      "items": ["RabbitMQ", "Azure Service Bus", "Azure Event Hubs", "Kafka", "SignalR", "gRPC", "MQTT"]
+    },
+    {
+      "category": "Tools & Others",
+      "icon": "tool",
+      "items": ["Visual Studio", "VS Code", "Rider", "Git", "Postman", "Swagger", "Application Insights", "ELK Stack"]
+    }
+  ]
+}
