@@ -1,0 +1,24 @@
+{
+  "name": "Alex Morgan - .NET Developer Portfolio",
+  "short_name": "AM Portfolio",
+  "description": "Professional portfolio of Alex Morgan, Senior .NET Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#512BD4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

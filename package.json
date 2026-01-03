@@ -1,0 +1,26 @@
+{
+  "name": "dotnet-developer-portfolio",
+  "version": "1.0.0",
+  "description": "A professional portfolio website for .NET developers",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "dotnet",
+    "developer",
+    "tailwind",
+    "netlify"
+  ],
+  "author": "Alex Morgan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexmorgan/portfolio"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
